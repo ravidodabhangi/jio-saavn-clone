@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JioSaavn | Best Music Player | Enjoy Free Songs</title>
+
+    <!-- Icon Link -->
+    <link rel="shortcut icon" href="./icon/favicon.ico" type="image/x-icon" />
+
+    <!-- font-awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./jioSaavn.css" />
+  </head>
+  <body>
+    <!-- Navbar section starts here -->
+
+    <section id="navbarBlock">
+      <article>
+        <aside class="logoBlock">
+          <div class="logo">
+            <img src="./icon/favicon.ico" alt="" />
+            <span>JioSaavn</span>
+            <ul class="menu_list">
+              <li class="nav_link active">
+                <a href="#">Home</a>
+              </li>
+              <li class="nav_link">
+                <a href="#">Browse</a>
+              </li>
+              <li class="nav_link">
+                <a href="#">Upgrade</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+        <aside class="searchBlock">
+          <div class="search_icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <input
+            type="search"
+            name="search"
+            id="inputSearch"
+            placeholder="Search"
+          />
+        </aside>
+        <aside class="authBlock">
+
+          <div class="dropDown">
+            <div class="lang ">
+               <p>Music Languages</p>
+               <p id="lang"></p>
+             </div>
+              <span class="arrow">
+                <i class="fa-solid fa-angle-down" id="down"></i>
+                <i class="fa-solid fa-angle-up" id="up"></i>
+              </span>
+          </div>
+
+          <div class="login">
+            <a href="#">Log In</a>
+          </div>
+          <div class="signup">
+            <a href="#">Sign Up</a>
+          </div>
+        </aside>
+      </article>
+    </section>
+
+    <!-- Navbar section ends here -->
+    <!-- Model html code start -->
+
+    <section id="model_section">
+      <article>
+        <aside class="model_img_aside">
+          <figure>
+            <img src="./image/2000sRo.jpg" alt="Mahadev" />
+          </figure>
+        </aside>
+        <aside class="containt_aside">
+          <div class="containt_div1">
+            <h1>Har har Shambhu mahadeva</h1>
+            <p>
+              by <span class="span1">Sumit Bhalla</span> ·1 Song ·780,583 Plays
+            </p>
+            <p>℗ 2022 <span class="span2">Sumit Bhalla</span></p>
+          </div>
+          <div class="containt_div2">
+            <button id="play_btnn">play <span class="no_span"></span></button>
+            <a class="heart_anchor" href="#"
+              ><i class="fa-solid fa-heart"></i
+            ></a>
+            <a href="#"><i class="fa-solid fa-ellipsis"></i></a>
+            <div>
+              <span><i class="fa-solid fa-thumbs-up"></i></span>
+              <p class="favorite">0</p>
+            </div>
+          </div>
+        </aside>
+      </article>
+      <main class="audio_main">
+        <div class="main_model_div1">
+          <p class="p11">1</p>
+          <p class="har">Har har Shambhu mahadeva</p>
+        </div>
+        <div class="main_model_div2">
+          <p>Sumit Bhalla</p>
+        </div>
+        <div class="main_model_div3">
+          <a href="#"><i class="fa-solid fa-heart"></i></a>
+          <p class="duration_p">4:10</p>
+        </div>
+      </main>
+    </section>
+
+    <!-- Model html code  -->
+
+    <!-- Main section starts here -->
+
+    <section id="mainBlock">
+      <article>
+        <aside class="left_side_bar">
+          <h3>Library</h3>
+          <ul class="sideBar_menu_list">
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-clock-rotate-left"></i
+                ><span>History</span></a
+              >
+            </li>
+
+            <li class="displaySongs">
+              <a href="#"
+                ><i class="fa-solid fa-music"></i><span>Songs</span></a
+              >
+            </li>
+
+            <li class="displayAlbums">
+              <a href="#"
+                ><i class="fa-solid fa-record-vinyl"></i><span>Album</span></a
+              >
+            </li>
+
+            <li>
+              <a href="#"
+                ><i class="fa-solid fa-podcast"></i><span>Podcasts</span></a
+              >
+            </li>
+
+            <li>
+              <a href="#"
+                ><i class="fa-brands fa-artstation"></i><span>Artists</span></a
+              >
+            </li>
+          </ul>
+
+          <a href="#" class="playlist"
+            ><i class="fa-solid fa-plus"></i><span>New Playlist</span></a
+          >
+        </aside>
+        <aside class="right_side_bar">
+
+          <div class="dropdownList">
+            <header>
+             <h1>What music do you like?</h1>
+             <p>
+                 <i>Pick all the languages you want to listen to.</i>
+             </p>
+            </header>
+            <main>
+             <ul id="bhasa">
+                 <li>Kannada</li>
+                 <li>English</li>
+                 <li>Hindi</li>
+                 <li>Punjabi</li>
+                 <li>Rajasthani</li>
+                 <li>Gujarathi</li>
+                 <li>Malayalam</li>
+                 <li>Bhojapuri</li>
+                 <li>Haryanvi</li>
+                 <li>Odia</li>
+                 <li>Bengali</li>
+                 <li>Marathi</li>
+             </ul>
+            </main>
+            <footer>
+             <button id="upgrade">Upgrade</button>
+            </footer>
+         </div>
+          <h1 style="margin-bottom:20px;">Trending Now</h1>
+
+          <div class="audio_content"></div>
+        </aside>
+      </article>
+    </section>
+
+    <!-- Main section ends here -->
+    <!--Audio footer html start  -->
+    <section id="head-pain">
+      <div class="audio_track_line">
+        <div class="tracker_div"></div>
+      </div>
+      <section id="audio_main_section">
+        <article>
+          <aside class="main_img_details">
+            <div>
+              <figure>
+                <img class="audio_img" src="./image/2000sRo.jpg" alt="" />
+                <audio
+                  class="audio_src"
+                  src="./audio/Hey Nalle Nalle.mp3"
+                ></audio>
+              </figure>
+            </div>
+            <div>
+              <h1 class="album_name">Ek Love Ya</h1>
+              <p class="artist_name">Vijay Prakash</p>
+            </div>
+          </aside>
+          <aside class="main_operator">
+            <i class="fa-solid fa-repeat"></i>
+            <i class="fa-solid fa-rotate-left"></i>
+            <i class="fa-solid fa-backward-step"></i>
+            <i class="fa-solid fa-backward-fast"></i>
+            <i class="fa-solid fa-play"></i>
+            <i class="fa-solid fa-forward-fast"></i>
+            <i class="fa-solid fa-forward-step"></i>
+            <i class="fa-solid fa-shuffle"></i>
+          </aside>
+          <aside class="audio_volume">
+            <p class="song_time">
+              <span class="currentTime">0:00</span>/<span class="duration"
+                >4:35</span
+              >
+            </p>
+            <i class="fa-solid fa-ellipsis"></i>
+            <i class="fa-solid fa-volume-high"></i>
+            <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+          </aside>
+        </article>
+      </section>
+    </section>
+    <!--Audio footer html end  -->
+
+    <!-- script starts here -->
+
+    <script src="./jioSaavn.js"></script>
+
+    <!-- script ends here -->
+  </body>
+</html>
